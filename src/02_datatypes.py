@@ -14,8 +14,12 @@ y = "7"
 # Write a print statement that combines x + y into the integer value 12
 
 # YOUR CODE HERE
+nSum = x + int(y)
+print(nSum)
 
 
 # Write a print statement that combines x + y into the string value 57
 
 # YOUR CODE HERE
+nConcat = f'{x}{y}'
+print(nConcat)
